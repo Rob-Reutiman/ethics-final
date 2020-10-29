@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import Nav from '../nav';
-import Q1 from './q1';
+import Q from './q';
 
 // import Footer from '../footer';
 
@@ -23,7 +23,7 @@ class Content extends React.Component {
 
         <div className='page-content'>
 
-          { this.state.question === 1 ? <Q1/> : null }
+          <Q question={this.state.question} next={(q) => this.setState({question: this.state.question + 1})}/>
 
         </div>
 
