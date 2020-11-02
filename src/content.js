@@ -10,8 +10,22 @@ class Content extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      question: 1
+      question: 0,
+      answers: []
     }
+  }
+
+  next (ans) {
+
+    let tempList = this.state.answers;
+    tempList.push(ans);
+
+    this.setState({
+      question: this.state.question + 1,
+      answers: tempList
+    });
+
+    console.log(this.state.answers);
   }
 
   render () {
@@ -23,7 +37,8 @@ class Content extends React.Component {
 
         <div className='page-content'>
 
-          <Q question={this.state.question} next={(q) => this.setState({question: this.state.question + 1})}/>
+          {/* TODO: Generate Results Page Based on Question Index Value */}
+          <Q question={this.state.question} next={this.next.bind(this)}/>
 
         </div>
 

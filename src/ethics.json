@@ -1,12 +1,44 @@
-{1:["If you found an envelope addressed to the Boys and Girls Club of America with $1,000, would you keep it?", "Yes", "No"], 
-2: ["If you found $200 in a wallet with no identification in it outside a store, would you:", "Keep it", "Turn it in to the store owner"], 
-3: ["If you came across the answer key to your next exam, do you:", "Keep it a secret and get an A on the exam", "Tell the professor the answer key is out there so they can change the exam"], 
-4: ["You are stranded on an island with 4 other people. If you came across a bundle of food where: if you share it, everyone survives for one more day if you keep it, you survive for another week. Do you: ", "Share it", "Keep it"], 
-5: ["You and a stranger are arrested and imprisoned. Each of you are in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict you both on the principal charge, but they have enough to convict you both on a lesser charge. Simultaneously, the prosecutors offer each of you a bargain. Each of you is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The possible outcomes are: If each of you betray each other, each of you serves two years in prison If you betray the stranger but the stranger remains silent, you will be set free and the stranger will serve three years in prison If you remains silent but the stranger betrays you, you will serve three years in prison and the stranger will be set free If you and the stranger both remain silent, both of you will serve only one year in prison (on the lesser charge). Do you:", "Betray the stranger", "Remain silent"], 
-6: ["You and a stranger are arrested and imprisoned. Each of you are in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict you both on the principal charge, but they have enough to convict you both on a lesser charge. Simultaneously, the prosecutors offer each of you a bargain. Each of you is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The possible outcomes are:
-If each of you betray each other, each of you serves twenty years in prison
-If you betray the stranger but the stranger remains silent, you will be set free and the stranger will serve thirty years in prison
-If you remain silent but the stranger betrays you, you will serve thirty years in prison and the stranger will be set free
-If you and the stranger both remain silent, both of you will serve only five years in prison (on the lesser charge). Do you: ", "Betray the stranger", "Remain silent"], 
-7:["Your mom and a group of five middle aged people are in danger, but one group can be saved by you. Do you save:", "your mom", "random group"], 
-8: ["Your sister and five of your friends’ moms are in danger, but one group can be saved by you. Do you save:", "Your sister", "Your friends' moms"}
+{
+    "questions": [
+        [
+            "If you found an envelope addressed to the Boys and Girls Club of America with $1,000, would you keep it?",
+            "Yes",
+            "No"
+        ],
+        [
+            "If you found $200 in a wallet with no identification in it outside a store, would you:",
+            "Keep it",
+            "Turn it in to the store owner"
+        ],
+        [
+            "If you came across the answer key to your next exam, do you:",
+            "Keep it a secret and get an A on the exam",
+            "Tell the professor the answer key is out there so they can change the exam"
+        ],
+        [
+            "You are stranded on an island with 4 other people. If you came across a bundle of food where: if you share it, everyone survives for one more day if you keep it, you survive for another week. Do you: ",
+            "Share it",
+            "Keep it"
+        ],
+        [
+            "You and a stranger are arrested and imprisoned. Each of you are in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict you both on the principal charge, but they have enough to convict you both on a lesser charge. Simultaneously, the prosecutors offer each of you a bargain. Each of you is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The possible outcomes are: If each of you betray each other, each of you serves two years in prison If you betray the stranger but the stranger remains silent, you will be set free and the stranger will serve three years in prison If you remains silent but the stranger betrays you, you will serve three years in prison and the stranger will be set free If you and the stranger both remain silent, both of you will serve only one year in prison (on the lesser charge). Do you:",
+            "Betray the stranger",
+            "Remain silent"
+        ],
+        [
+            "You and a stranger are arrested and imprisoned. Each of you are in solitary confinement with no means of communicating with the other. The prosecutors lack sufficient evidence to convict you both on the principal charge, but they have enough to convict you both on a lesser charge. Simultaneously, the prosecutors offer each of you a bargain. Each of you is given the opportunity either to betray the other by testifying that the other committed the crime, or to cooperate with the other by remaining silent. The possible outcomes are:\nIf each of you betray each other, each of you serves twenty years in prison\nIf you betray the stranger but the stranger remains silent, you will be set free and the stranger will serve thirty years in prison\nIf you remain silent but the stranger betrays you, you will serve thirty years in prison and the stranger will be set free\nIf you and the stranger both remain silent, both of you will serve only five years in prison -- on the lesser charge. Do you: ",
+            "Betray the stranger",
+            "Remain silent"
+        ],
+        [
+            "Your mom and a group of five middle aged people are in danger, but one group can be saved by you. Do you save:",
+            "your mom",
+            "random group"
+        ],
+        [
+            "Your sister and five of your friends’ moms are in danger, but one group can be saved by you. Do you save:",
+            "Your sister",
+            "Your friends' moms"
+        ]
+    ]
+}
