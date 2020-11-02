@@ -16,7 +16,7 @@ class Q extends React.Component {
     if (!this.state.oneSelected && !this.state.twoSelected) return;
 
     // Update State and Move to Next Question
-    let ans = this.state.oneSelected ? 0 : 1;
+    let ans = this.state.oneSelected ? 1 : 2;
     this.setState({
       oneSelected: false,
       twoSelected: false
