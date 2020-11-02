@@ -6,8 +6,9 @@ body {
   font-family: '8_bit_Paragraph';
   background-color: #232931;
   font-size: 100%;
+  color: aliceblue
 }
 
-h1 {
-  color: aliceblue;
+.selected {
+  background-color: greenyellow;
 }
