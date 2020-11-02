@@ -1,6 +1,6 @@
 import React from 'react';
 import questions from './ethics';
-
+import img from "./ethics_images/Q2.jpeg";
 class Q extends React.Component {
 
   constructor(props) {
@@ -34,6 +34,7 @@ class Q extends React.Component {
       <React.Fragment>
 
         <h1>Question {this.props.question + 1}</h1>
+        <img src={img}/>
         <h3>{questions[this.props.question]["question"]}</h3>
 
         <button className={oneCSS} onClick={() => this.setState({oneSelected: true, twoSelected: false})}>
@@ -44,7 +45,7 @@ class Q extends React.Component {
           {questions[this.props.question]["answer2"]}
         </button>
 
-        <button onClick={() => this.nextQuestion()}>Next -></button>
+        <button onClick={() => this.nextQuestion()}><i class="material-icons">navigate_next</i></button>
 
       </React.Fragment>
     );
