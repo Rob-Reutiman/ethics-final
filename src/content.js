@@ -16,7 +16,6 @@ class Content extends React.Component {
   }
 
   next(ans) {
-    console.dir("being called")
     let tempList = this.state.answers;
     tempList.push(ans);
 
