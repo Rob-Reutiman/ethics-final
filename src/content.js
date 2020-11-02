@@ -10,7 +10,7 @@ class Content extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      question: 1,
+      question: 0,
       answers: []
     }
   }
