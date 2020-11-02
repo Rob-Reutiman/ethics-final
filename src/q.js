@@ -33,7 +33,7 @@ class Q extends React.Component {
     return(
       <React.Fragment>
 
-        <h1>Question {this.props.question}</h1>
+        <h1>Question {this.props.question + 1}</h1>
         <h3>{questions[this.props.question]["question"]}</h3>
 
         <button className={oneCSS} onClick={() => this.setState({oneSelected: true, twoSelected: false})}>
