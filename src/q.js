@@ -1,6 +1,15 @@
 import React from 'react';
 import questions from './ethics';
-import img from "./ethics_images/Q2.jpeg";
+import img1 from "./ethics_images/Q1.jpeg";
+import img2 from "./ethics_images/Q2.jpeg";
+import img3 from "./ethics_images/Q3.jpeg";
+import img4 from "./ethics_images/Q4.jpeg";
+import img5 from "./ethics_images/Q5.jpeg";
+import img6 from "./ethics_images/Q6.jpeg";
+import img7 from "./ethics_images/Q7.jpeg";
+import img8 from "./ethics_images/Q8.jpeg";
+
+const images = [ img1, img2, img3, img4, img5, img6, img7, img8]
 class Q extends React.Component {
 
   constructor(props) {
@@ -34,7 +43,7 @@ class Q extends React.Component {
       <React.Fragment>
 
         <h1>Question {this.props.question + 1}</h1>
-        <img src={img}/>
+        <img src={images[this.props.question]}/>
         <h3>{questions[this.props.question]["question"]}</h3>
 
         <button className={oneCSS} onClick={() => this.setState({oneSelected: true, twoSelected: false})}>
