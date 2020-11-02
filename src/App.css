@@ -3,12 +3,34 @@ html {
 }
 
 body {
-  font-family: '8_bit_Paragraph';
+  font-family: 'Verdana';
   background-color: #232931;
   font-size: 100%;
   color: aliceblue
 }
 
 .selected {
-  background-color: greenyellow;
+  background-color: gold;
+}
+
+h1 {
+  margin-top: 68px;
+  text-align: center ;
+}
+
+h3 {
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.page-content {
+  /* margin-left: 68px; */
+  text-align: center;
+}
+
+button {
+  background-color: beige;
+  padding: 15px;
+  font-size: 20px;
 }
