@@ -39,25 +39,27 @@ class Q extends React.Component {
     const oneCSS = this.state.oneSelected ? 'selected' : '';
     const twoCSS = this.state.twoSelected ? 'selected' : '';
 
-    return(
-      <React.Fragment>
-
+    return (
+      <div>
         <h1>Question {this.props.question + 1}</h1>
-        <img src={images[this.props.question]}/>
+        
+        <img src={images[this.props.question]} alt={"scenario"}/>
         <h3>{questions[this.props.question]["question"]}</h3>
 
-        <button className={oneCSS} onClick={() => this.setState({oneSelected: true, twoSelected: false})}>
-          {questions[this.props.question]["answer1"]}
-        </button>
+        <div className="radio">
 
-        <button className={twoCSS} onClick={() => this.setState({oneSelected: false, twoSelected: true})}>
-          {questions[this.props.question]["answer2"]}
-        </button>
+          <button className={oneCSS} onClick={() => this.setState({oneSelected: true, twoSelected: false})}>
+            {questions[this.props.question]["answer1"]}
+          </button>
 
-        <button onClick={() => this.nextQuestion()}><i class="material-icons">navigate_next</i></button>
+          <button className={twoCSS} onClick={() => this.setState({oneSelected: false, twoSelected: true})}>
+            {questions[this.props.question]["answer2"]}
+          </button>
+        </div>
 
-      </React.Fragment>
-    );
+        <button onClick={() => this.nextQuestion()}>Next -></button>
+      </div>
+    )
   }
 }
 

@@ -1,15 +1,20 @@
 import React from 'react';
-
-// import Nav from '../nav';
+import Intro from './intro';
+import Egoism from './egoism';
+import Utilitarianism from './utilitarianism';
 import Q from './q';
-
-// import Footer from '../footer';
+import Results from './results';
 
 class Content extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
+      showIntro: true,
+      showEgoism: false,
+      showUtilitarian: false,
+      showQ: false,
+      showResults: false,
       question: 0,
       answers: []
     }
@@ -19,28 +24,36 @@ class Content extends React.Component {
     let tempList = this.state.answers;
     tempList.push(ans);
 
-    this.setState({
-      question: this.state.question + 1,
-      answers: tempList
-    });
+    if(this.state.question !== 7) {
+      this.setState({
+        question: this.state.question + 1,
+        answers: tempList
+      });
+    } else {
+      this.setState({
+        answers: tempList,
+        showResults: true,
+        showQ: false
+      });
+    }
   }
 
   render() {
 
     return (
-      <React.Fragment>
-
-        {/* <Nav active={this.props.match.url}/> */ }
-
         <div className='page-content'>
 
-          <Q question={this.state.question} next={(ans) => this.next(ans)}/>
+          {this.state.showIntro && <Intro next={() => this.setState({showIntro: false, showEgoism: true})}/>}
+
+          {this.state.showEgoism && <Egoism next={() => this.setState({showEgoism: false, showUtilitarian: true})}/>}
+
+          {this.state.showUtilitarian && <Utilitarianism next={() => this.setState({showUtilitarian: false, showQ: true})}/>}
+
+          {this.state.showQ && <Q question={this.state.question} next={(ans) => this.next(ans)}/>}
+
+          {this.state.showResults && <Results answers={this.state.answers}/>}
 
         </div>
-
-        { /* <Footer/> */ }
-
-      </React.Fragment>
     );
   }
 }

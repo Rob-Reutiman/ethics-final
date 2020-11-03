@@ -6,22 +6,24 @@ body {
   font-family: 'Verdana';
   background-color: #232931;
   font-size: 100%;
-  color: aliceblue
+  color: aliceblue;
+  text-align: center;
 }
 
 .selected {
   background-color: gold;
 }
 
+.page-content {
+  padding: 3%;
+}
+
 h1 {
-  margin-top: 68px;
-  text-align: center ;
+  padding: 20px;
 }
 
 h3 {
-  text-align: justify;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 20px;
 }
 
 .page-content {
@@ -29,13 +31,19 @@ h3 {
   text-align: center;
 }
 
-button {
-  background-color: beige;
-  padding: 15px;
-  font-size: 20px;
+.radio {
+  padding-bottom: 40px;
 }
 
-img{
+button {
+  background-color: beige;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img {
   height: 200px;
   width: 300px;
 }
