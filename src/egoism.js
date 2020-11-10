@@ -10,7 +10,7 @@ class Egoism extends React.Component {
 
           <h3>Egoism claims that each person has but one ultimate goal: his/her own welfare. Egoism claims that a person is morally obligated to perform some action if and only if doing that action is in that individual's maximum self interest.</h3>
 
-          <button onClick={() => this.props.next()}>Utilitarianism</button>
+          <button onClick={() => this.props.next()}>Learn about Utilitarianism</button>
 
         </div>
     );

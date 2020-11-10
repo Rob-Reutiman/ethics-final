@@ -24,7 +24,7 @@ class Content extends React.Component {
     let tempList = this.state.answers;
     tempList.push(ans);
 
-    if(this.state.question !== 7) {
+    if(this.state.question !== 14) {
       this.setState({
         question: this.state.question + 1,
         answers: tempList
