@@ -38,5 +38,40 @@
     "question": "Your younger sister and five of your friends’ mothers are in danger, but one group can be saved by you. Do you save:",
     "answer1": "Your younger sister",
     "answer2": "Your friends' mothers"
+  },
+  {
+    "question": "You are the top executive at a manufacturing company and you are considering job automation. You could lay off 1,000 people and the company’s revenue will increase by $100 million each year and you will get a 20% pay raise. Do you:",
+    "answer1": "Lay them off",
+    "answer2": "Keep the employees"
+  },
+  {
+    "question": "You are a government employee and have just discovered that the government has been spying on invading citizens' privacy by taking and using their data without their consent. If you leak this information to the public or authorities, there are preceding court cases that indicate that you may be charged under the Espionage Act and face 15 years in federal prison. If you don’t leak the information, the government will continue its spying. Do you:",
+    "answer1": "Remain silent",
+    "answer2": "Leak the information"
+  },
+  {
+    "question": "You are the CEO of a technology company that makes targeted missiles. You sell your product to another country and learn that they are using it to kill people in their slums and framing it as attacks from another country. You could keep providing these services and your company would continue to profit greatly from it. No one would ever find out that you knew what was happening and your company would profit greatly from it. Alternatively, you could stop selling to them and expose them to the media, but your company would get pushback for not reporting sooner and you would lose a lot of money.",
+    "answer1": "Keep selling to them",
+    "answer2": "Expose them to media"
+  },
+  {
+    "question": "You are head of HR for a major automotive company. The automotive industry lacks diversity. You have the opportunity to modify your recruiting efforts to increase diversity in the automotive industry and likely inspire other smaller companies to do the same, but this will increase your recruiting costs by one million dollars. Do you:",
+    "answer1": "Keep the same strategy",
+    "answer2": "Modify your recruiting strategy"
+  },
+  {
+    "question": "You are the founder and CEO of a small startup company of 5 employees. You and your employees frequently use information from multiple editorial sites which contain ads that each take a couple seconds to minimize. You are thinking of purchasing ad-blocker software on your startup’s computers to increase the productivity of your employees, but the editorial sites (and their employees) will not receive compensation from their advertisements which make up a majority of their revenue. Do you:",
+    "answer1": "Purchase Ad Blockers",
+    "answer2": "Continue to click through Ads"
+  },
+  {
+    "question": "Your best friend was texting and driving and lost control of their vehicle. Their car crashed into a government building. No lives were lost, but millions of dollars of damage occurred. Your friend is now going to court for their reckless driving and the prosecutor has ordered your friend’s phone records to prove that they were texting and driving; therefore, fully responsible for paying for the damages, and most likely going to jail. You happen to work in the IT department of your friend’s cell phone provider. You have the technical abilities to alter your friend’s records to make it appear as if they were not texting to lessen your friend’s sentence without getting caught. This would then make the government and your friend’s insurance company pay for all of the damages. Do you:",
+    "answer1": "Alter your friend’s records",
+    "answer2": "Not get involved"
+  },
+  {
+    "question": "You are the lead developer on a self-driving car project. Recently, the first batch of cars has been sold and they’ve been crashing. There is clearly a bug because they only crash when the traffic lights are horizontal as opposed to vertical. No one has died from these crashes, but severe damage to the cars has occurred. You are asked to investigate this issue and find who is responsible for creating the issue. You find the bug, but also discover it was you who made the mistake. If you report this, you will surely be scrutinized in the press and lose your job, but you could easily fix the mistake and push an update to the cars. If you do not report it, you could say you couldn’t find it and task your team with writing a software update for the car. This will take 6 months and the cars will continue to crash in that time.",
+    "answer1": "Don’t report the bug, have your team write an entire update",
+    "answer2": "Report the bug"
   }
 ]
