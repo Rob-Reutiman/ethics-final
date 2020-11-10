@@ -8,8 +8,15 @@ import img5 from "./ethics_images/Q5.jpeg";
 import img6 from "./ethics_images/Q6.jpeg";
 import img7 from "./ethics_images/Q7.jpeg";
 import img8 from "./ethics_images/Q8.jpeg";
+import img9 from "./ethics_images/Q9.jpeg";
+import img10 from "./ethics_images/Q10.JPG";
+import img11 from "./ethics_images/Q11.jpeg";
+import img12 from "./ethics_images/Q12.jpeg";
+import img13 from "./ethics_images/Q13.jpg";
+import img14 from "./ethics_images/Q14.jpeg";
+import img15 from "./ethics_images/Q15.jpg";
 
-const images = [ img1, img2, img3, img4, img5, img6, img7, img8]
+const images = [ img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15]
 class Q extends React.Component {
 
   constructor(props) {
